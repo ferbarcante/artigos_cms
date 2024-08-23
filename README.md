@@ -19,21 +19,19 @@ Funcionalidades
 
 ## Como Executar
 
-    Clone o repositório:
+1. Clone o repositório:
 
-    bash
-
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
-Configure o banco de dados no arquivo application.properties.
-Execute a aplicação:
-
-bash
-
+    ```bash
+    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    ```
+2. Configure o banco de dados no arquivo application.properties.
+3. Execute a aplicação:
+     ```bash
     ./mvnw spring-boot:run
+     ```
 
 ### TODO:
 
-    Implementar autenticação e autorização.
-    Melhorar a interface do usuário para gerenciamento de artigos.
-    Adicionar testes unitários e de integração.
+    - [] Implementar autenticação e autorização.
+    - [] Melhorar a interface do usuário para gerenciamento de artigos.
+    - [] Adicionar testes unitários e de integração.
